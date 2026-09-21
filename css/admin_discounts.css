@@ -1,0 +1,92 @@
+.form-container {
+    background: #f9f9f9;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.form-container form label {
+    display: block;
+    margin-bottom: 6px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.form-container form input[type="text"],
+.form-container form input[type="number"],
+.form-container form input[type="date"],
+.form-container form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-container form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+
+.form-container form button {
+    margin-top: 15px;
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container form button:hover {
+    background: #45a049;
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin-table th, .admin-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.admin-table th {
+    background-color: #f2f2f2;
+}
+
+.admin-table td form {
+    margin: 0;
+}
+
+.admin-table .small-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    background: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.admin-table .small-btn:hover {
+    background: #1976D2;
+}

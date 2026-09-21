@@ -1,0 +1,210 @@
+.cart-container {
+    padding: 40px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.cart-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.cart-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.cart-items {
+    flex: 1;
+    min-width: 600px;
+}
+
+.cart-item-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.cart-item-box img {
+    width: 120px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.item-details {
+    flex: 1;
+}
+
+.item-details h4 {
+    font-size: 18px;
+    margin: 0 0 8px;
+}
+
+.item-details p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.remove-btn {
+    color: red;
+    font-size: 13px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.empty-cart {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+    margin-top: 40px;
+}
+
+.cart-summary {
+    width: 300px;
+    padding: 20px;
+    background-color: #fcfcfc;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.cart-summary h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.promo-code-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.promo-code-form input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.promo-code-form button {
+    padding: 8px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.promo-code-form button:hover {
+    background-color: #222;
+}
+
+.error-message {
+    color: red;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.success-message {
+    color: green;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.total-section {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.checkout-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.checkout-btn,
+.continue-btn {
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.checkout-btn:hover,
+.continue-btn:hover {
+    background: #222;
+}
+
+.recommendation-section {
+    margin-top: 60px;
+}
+
+.recommendation-section h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.recommendation-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+}
+
+.recommendation-card {
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.2s ease;
+}
+
+.recommendation-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.recommendation-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.recommendation-card h4 {
+    font-size: 14px;
+    margin: 10px 0 5px;
+}
+
+.recommendation-card .price {
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+}
+.banner-message {
+    background-color: #fffae6;
+    color: #7a5901;
+    padding: 12px 20px;
+    border: 1px solid #ffe58f;
+    border-radius: 8px;
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.admin-wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+.admin-main {
+    padding: 30px;
+    margin-left: 220px;
+    flex: 1;
+    background-color: #f4f4f4;
+}
+
+.admin-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 100vh;
+    background: #1c1c1c;
+    padding: 20px 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.admin-sidebar h2 {
+    color: red;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.admin-sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.admin-sidebar ul li {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.admin-sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.admin-sidebar ul li a:hover {
+    color: #f00;
+}
+
+body.dark-mode {
+    background-color: #111;
+    color: white;
+}
+
+body.dark-mode .admin-main h1 {
+    color: white;
+}
+
+body.dark-mode .admin-sidebar {
+    background-color: #111;
+}
+
+body.dark-mode .admin-sidebar ul li a {
+    color: #ccc;
+}
+
+body.dark-mode .admin-sidebar ul li a:hover {
+    color: #f00;
+}
+
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #c3e6cb;
+}
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.dashboard-box {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.06);
+    transition: transform 0.2s ease-in-out;
+    text-align: center;
+}
+
+.dashboard-box:hover {
+    transform: translateY(-5px);
+}
+
+.dashboard-box h3 {
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: #222;
+}
+
+.dashboard-box p {
+    font-size: 16px;
+    color: #555;
+    margin: 0;
+}
+
+.dashboard-btn {
+    display: inline-block;
+    padding: 10px 16px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.dashboard-btn:hover {
+    background-color: #444;
+}

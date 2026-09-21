@@ -1,0 +1,95 @@
+.confirmation-container {
+    padding: 40px 5%;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.confirmation-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.confirmation-box h1 {
+    color: green;
+    margin-bottom: 10px;
+}
+
+.success-message {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.error-message {
+    text-align: center;
+    color: red;
+    font-size: 1.1rem;
+    margin-top: 40px;
+}
+
+.order-details {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.order-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.order-item .price {
+    font-weight: bold;
+    color: red;
+}
+
+.total {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 15px;
+}
+
+.confirmation-links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.home-btn,
+.history-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.home-btn:hover,
+.history-btn:hover {
+    background-color: #333;
+}
+
+body.dark-mode .confirmation-box {
+    background-color: #1e1e1e;
+    border-color: #444;
+    color: #fff;
+}
+
+body.dark-mode .order-item {
+    border-bottom: 1px solid #444;
+}
+
+body.dark-mode .success-message,
+body.dark-mode .price,
+body.dark-mode .total {
+    color: #fff;
+}

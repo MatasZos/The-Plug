@@ -1,0 +1,87 @@
+.form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-container h2 {
+    text-align: center;
+    font-size: 26px;
+    color: #222;
+    margin-bottom: 25px;
+}
+
+.form-container label {
+    display: block;
+    font-weight: 600;
+    margin: 15px 0 6px;
+    color: #333;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"] {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    background-color: #f9f9f9;
+}
+
+.form-container input:focus {
+    border-color: #888;
+    background-color: #fff;
+    outline: none;
+}
+
+.checkbox-group {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-group label {
+    font-size: 14px;
+    color: #333;
+}
+
+.form-container button[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #111;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.25s ease-in-out;
+}
+
+.form-container button[type="submit"]:hover {
+    background-color: #e60000;
+}
+
+.form-container .warning {
+    font-size: 14px;
+    color: #dc3545;
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .form-container {
+        padding: 25px 20px;
+    }
+
+    .form-container h2 {
+        font-size: 22px;
+    }
+}
