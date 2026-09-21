@@ -36,22 +36,27 @@ The platform is designed for selling limited-edition sneakers and clothing, prov
 
 ## Project Structure
 
-```text
-The-Plug/
-├── classes/       # Application classes
-├── css/           # Stylesheets
-├── data/          # Database files
-├── images/        # Project images and assets
-├── includes/      # Shared PHP components
-├── js/            # JavaScript
-├── public/        # Public application pages
-└── src/           # Configuration and application logic
-```
-##Database
+The project is organised into the following main directories:
+
+- `classes/` - Application classes
+- `css/` - Stylesheets
+- `data/` - Database files
+- `images/` - Project images and assets
+- `includes/` - Shared PHP components
+- `js/` - JavaScript
+- `public/` - Public application pages
+- `src/` - Configuration and application logic
+
+## Database
+
 The application uses MySQL for persistent data storage, including users, products, carts, orders, payments, reviews and discounts.
-The database structure is provided in the data/ directory.
-##Testing
+
+The database structure is provided in the `data/` directory.
+
+## Testing
+
 Testing was carried out across several areas of the application, including:
+
 - Unit testing
 - UI testing
 - Requirements testing
@@ -59,12 +64,30 @@ Testing was carried out across several areas of the application, including:
 - Equivalence partitioning
 - Basis path testing
 - Validation testing
+
 Test scripts and related testing work are included within the project.
-##Development
+
+## Development
+
 This project was developed as a collaborative university project using a PHP/MySQL web application architecture.
-##Future Improvements
+
+The project involved requirements analysis, system design, implementation and testing.
+
+## Future Improvements
+
 Potential future improvements include:
+
 - Further admin order-management functionality
 - Additional user preference functionality
 - Further checkout and validation improvements
 - Expanded automated testing
+
+## Contributors
+
+- Matas Zostautas
+- Ethan Teixeira
+- Paul Adelabu
+
+---
+
+*University project developed as part of a Software Engineering and Testing module.*
