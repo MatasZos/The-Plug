@@ -47,10 +47,10 @@ The-Plug/
 ├── public/        # Public application pages
 └── src/           # Configuration and application logic
 ```
-Database
+##Database
 The application uses MySQL for persistent data storage, including users, products, carts, orders, payments, reviews and discounts.
 The database structure is provided in the data/ directory.
-Testing
+##Testing
 Testing was carried out across several areas of the application, including:
 - Unit testing
 - UI testing
@@ -60,9 +60,9 @@ Testing was carried out across several areas of the application, including:
 - Basis path testing
 - Validation testing
 Test scripts and related testing work are included within the project.
-Development
+##Development
 This project was developed as a collaborative university project using a PHP/MySQL web application architecture.
-Future Improvements
+##Future Improvements
 Potential future improvements include:
 - Further admin order-management functionality
 - Additional user preference functionality
